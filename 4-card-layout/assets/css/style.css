@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+
+}
+.ff-work-sans{
+    font-family: "Work Sans", sans-serif;
+}
+.layout-card{
+    background-color: white;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: all 300ms linear;
+}
+.layout-card:hover{
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.7);
+
+}
+.fs-20{
+    font-size: 20px;
+}
+.lh-123{
+    line-height: 123.6%;
+}
+.text_grey{
+    color: #7b7b7b;
+}
+.lh-150{
+    line-height: 150.6%;
+}
+.icon-container{
+    top: 50%;
+    right:-40px;
+    transform: translateY(-50%);
+    transition: all 300ms linear;
+
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    transition: all 300ms linear;
+    border-radius: 5px;
+}
+.layout-card:hover .icon-container{
+    right: 0;
+}
+.icon-box svg path{
+    transition: all 300ms linear;
+}
+.icon-box:hover{
+    background-color: #ff5300;
+    box-shadow: 0px 4px 4px 0px #ff5300;
+}
+.icon-box:hover svg path{
+    fill: white;
+}
+.card-img-box{
+    overflow: hidden;
+
+}
